@@ -1,0 +1,61 @@
+.lista-alunos{
+    width: 800px;
+}
+
+table{
+    width: 100%;
+}
+
+th, td{
+    padding: 8px;
+    text-align: left;
+}
+
+table, td, th{
+    border-collapse: collapse;
+}
+
+thead tr{
+    background-color: #ff7300;
+    color: #fff;
+}
+
+tbody tr:nth-child(even){
+    background-color: #dedbdb;
+}
+
+tbody tr:hover{
+    background-color: #194265;
+    color: #fff;
+}
+
+button{
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0 4px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.bkg-green{
+    background-color: #279927;
+}
+
+.bkg-red{
+    background-color: #c51717;
+}
+
+.btn-padrao{
+    background: #194265;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.btn-padrao:hover{
+    background: #ff7300;
+}
